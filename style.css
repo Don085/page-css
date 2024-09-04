@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    height: 76px;
+    align-items: center;
+
+    
+}
+
+.logo {
+
+    height: 48px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 22px;
+    
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+
+.face {
+
+    margin: 0px;
+    background-color: #1f2937;
+    display: flex;
+
+}
+ h1 {
+    margin: 0px;
+    color: #e5e7eb;
+ }

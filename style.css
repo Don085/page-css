@@ -1,7 +1,9 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -161,6 +163,7 @@ a {
     border-radius: 10px;
     margin: auto;
     margin-top: 96px;
+    margin-bottom: 96px;
     padding: 64px;
 
 }
@@ -192,4 +195,13 @@ a {
     border-radius: 5px;
     font-weight: bold;
 
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: #e5e7eb;
 }
